@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600;700&family=Poppins:wght@100;200;300;400;600;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+
+h1 {
+    color: #ffff;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+
+}
+
+p {
+
+    font-size: 1.125rem;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin: 10px auto;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+
+main {
+
+    margin: 10% auto;
+    background-color: hsl(216, 50%, 16%);
+    width: 400px;
+    border-radius: 10px;
+
+
+}
+
+.container {
+    margin: 8%;
+
+
+}
+
+
+/* ---------------------------------------OVERLAY--------------------------------------------*/
+
+.overlay {
+    position: relative;
+
+}
+
+.overlay img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 8% auto;
+}
+
+
+
+.overlay1 {
+    position: absolute;
+    background-color: rgba(191, 250, 242, 0.6);
+    width: 100%;
+    height: 51.4vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.overlay1:hover {
+    opacity: 1;
+}
+
+
+
+.overlay1 img {
+    width: 40px;
+}
+
+
+/* -----------------XXXXXX--------------END-----OF---OVERLAY------------------XXXXXXX--------------------------*/
+
+
+
+
+
+/* --------XXXXXXXX-------FIRST BOX---------XXX--XXX----------*/
+
+.firstbox a {
+    text-decoration: none;
+}
+
+.firstbox h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+
+/* --------XXXXXXXX-------END OF FIRST BOX---------XXX--XXX----------*/
+
+
+
+
+.secondbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left img {
+    width: 1em;
+    margin-right: 0.9375em;
+
+}
+
+.left {
+    display: flex;
+    align-items: center;
+
+}
+
+.left p {
+    color: hsl(178, 100%, 50%);
+}
+
+
+.right {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+
+.right img {
+    width: 1.5em;
+    margin-right: 0.9375em;
+}
+
+
+
+.line {
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin: 10% auto;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    margin-left: -55px;
+    margin-top: -50px;
+
+}
+
+.avatar p {
+
+    margin-left: -30px;
+
+}
+
+.avatar img {
+    width: 15%;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 8% auto;
+
+}
+
+.avatar a {
+    color: #ffff;
+    text-decoration: none;
+
+}
+
+.avatar a:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+
+}
+
+
+
+/* -----------------------XXXX--------------END OF SECOND BOX----------XXXX----------------------------------*/
+
+
+@media screen and (max-width: 500px) {
+
+    main {
+        width: 80%;
+        margin: 20% auto;
+        font-size: 15px;
+    }
+
+    .overlay1 {
+        display: none;
+    }
+
+}
